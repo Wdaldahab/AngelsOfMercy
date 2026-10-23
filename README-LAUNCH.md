@@ -1,4 +1,4 @@
-# AngelsOfMercy — Launch Checklist
+# Nurviant — Launch Checklist
 
 Site: `index.html` (single file, no build step, no backend server needed)
 
@@ -6,8 +6,8 @@ Site: `index.html` (single file, no build step, no backend server needed)
 - Removed the dead `/api/inquiries` endpoint — submissions to it would have failed on any static host.
 - Form now delivers through FormSubmit AJAX once a lead email is set:
   - In `index.html`, replace `REPLACE_WITH_YOUR_LEAD_EMAIL` with the inbox that should receive nurse/hospital inquiries.
-  - First real submission sends a one-time activation email to that inbox — click it once, after that every inquiry arrives as a formatted table email with subject `AngelsOfMercy inquiry AOM-… (nurse|hospital)`.
-- Until the email is set, the site runs in demo mode: it saves the inquiry on the visitor's own device, shows a reference number (`AOM-…`), and offers the JSON download — so the page can be tested safely before launch.
+  - First real submission sends a one-time activation email to that inbox — click it once, after that every inquiry arrives as a formatted table email with subject `Nurviant inquiry NVT-… (nurse|hospital)`.
+- Until the email is set, the site runs in demo mode: it saves the inquiry on the visitor's own device, shows a reference number (`NVT-…`), and offers the JSON download — so the page can be tested safely before launch.
 - Kept from the preview: honeypot anti-spam field, license/role field (RN / LPN-LVN / APRN / Internationally educated nurse), U.S. work-authorization field (incl. "Need employer sponsorship"), timeout handling.
 
 ## Go public — pick ONE host (all free for a static page)
