@@ -1,11 +1,5 @@
 # Nurviant
 
-Connecting nurses with U.S. hospital recruitment opportunities.
+A static nursing recruitment interest website for nurses and U.S. hospital hiring teams. Role cards are illustrative, not active vacancies.
 
-Live site: https://wdaldahab.github.io/Nurviant/
-
-Register your specialty, location, license/role, and U.S. work-authorization preferences — including internationally educated nurses and nurses who need employer sponsorship.
-
-See README-LAUNCH.md for launch and lead-delivery setup.
-
-Contact: ahmed.alhussien1985@gmail.com
+Open `index.html` through a local static server. Styling is in `index.html`; behavior is in `app.js`. See [README-LAUNCH.md](README-LAUNCH.md) for delivery status, verification, and launch decisions.
